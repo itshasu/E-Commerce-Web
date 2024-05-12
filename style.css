@@ -1,0 +1,94 @@
+.navbar{
+    background-color: #D32F2F !important;
+}
+
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important ;
+}
+
+
+.fa-truck,.fa-headphones,.fa-thumbs-o-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #D32F2F !important;
+}
+
+h3{
+    color: blue;
+}
+
+.Card1,.Card2,.Card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mainCard{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newArrivals{
+    margin-top: 60px;
+}
+
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: blue;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+    margin: 30px;
+}
+
+.footer{
+    width: 100%;
+    background-color: aquamarine;
+    height: 70px;
+    text-align: center !important;
+}
+
+h4{
+    color: black;
+}
+
+.footer > div{
+    justify-content: center;
+}
+
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+@media screen and (max-width: 600px) {
+    .Card1,.Card2,.Card3{
+        width: 100%;
+    }
+  }  
